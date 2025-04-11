@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom risk colors
+				risk: {
+					high: '#E74C3C',
+					medium: '#F39C12',
+					low: '#2ECC71'
+				},
+				// Enterprise theme colors
+				enterprise: {
+					primary: '#0A2647',
+					secondary: '#144272',
+					accent: '#2C74B3',
+					light: '#205295'
 				}
 			},
 			borderRadius: {
