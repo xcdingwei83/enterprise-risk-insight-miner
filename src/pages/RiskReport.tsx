@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import Navbar from '@/components/Layout/Navbar';
 import RiskChart from '@/components/Reports/RiskChart';
 import DataSourceList from '@/components/Reports/DataSourceList';
+import RiskSummaryCard from '@/components/Dashboard/RiskSummaryCard';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
