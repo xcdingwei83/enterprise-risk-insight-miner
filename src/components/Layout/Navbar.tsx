@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
               <Search size={18} />
               <span>企业查询</span>
             </Link>
-            <Link to="/report" className="flex items-center space-x-2 hover:text-enterprise-accent transition-colors">
+            <Link to="/report/1" className="flex items-center space-x-2 hover:text-enterprise-accent transition-colors">
               <FileText size={18} />
               <span>风险报告</span>
             </Link>
